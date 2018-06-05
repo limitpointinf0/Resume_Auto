@@ -5,7 +5,7 @@ from settings import *
 app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
-def hello_monkey():
+def hello_hello():
     """Respond to incoming requests."""
     resp = VoiceResponse()
     msg = MESSAGE['SAY']
