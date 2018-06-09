@@ -13,8 +13,6 @@ MESSAGE = {
 """This is the message you want to send by SMS"""
 messages = {'real': 'abcdefghijklmnopqrstuvwxyz'}
 
-creds = {'real': 'SID:ATOKEN'} #separated by colon
-
 my_phone = {'phone':'+10000000000'} #your phone number
 
 url = {'url':'https://...'} #the url to send your request to with curl for SMS
