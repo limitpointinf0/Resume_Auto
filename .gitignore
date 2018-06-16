@@ -1,1 +1,4 @@
 __pycache__/
+*.png
+*.html
+helpers/settings.py
