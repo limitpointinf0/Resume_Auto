@@ -36,7 +36,7 @@ def send_mail(send_from, passwd, send_to, subject, message, files=[],
             message = message.format(cover=message)
         with open('helpers/your_photo.png','rb') as f:
             msgImage = MIMEImage(f.read())
-            msgImage.add_header('Content-ID', '<chris>')
+            msgImage.add_header('Content-ID', '<your_photo>')
         msg.attach(msgImage)
         msg.attach(MIMEText(message, 'html'))
     else:
